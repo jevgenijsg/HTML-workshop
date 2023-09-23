@@ -6,5 +6,49 @@
 </head>
 <body>
 
+<!--
+    GET https://tsi.lv/students?fname=John&lname=Doe&age=20&faculty=IT&id=12345
+
+    POST /students HTML/1.1
+    Host tsi.lv
+    Content-Type: application/json
+
+    JSON
+    {
+        fname : "John",
+        lname: "Doe",
+        age: 20,
+        faculty: "IT",
+        id: "bda4002"
+    }
+
+--> 
+
+
+    <form method="get">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" placeholder="First name"><br><br>
+
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" placeholder="Last name"><br><br>
+
+        <label for="age">Age</label>
+        <input type="text" id="age" placeholder="Enter age"><br><br>
+
+        <label for="faculty">Age</label>
+        <input type="text" id="faculty" placeholder="faculty"><br><br>
+
+        <label for="id">Id</label>
+        <input type="text" id="id" placeholder="ID"><br><br>
+
+        <input type="submit">
+    </form>
+
+    <br>
+
+    <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/M19C5jRMNHs">
+    </iframe>
+
 </body>
 </html>
